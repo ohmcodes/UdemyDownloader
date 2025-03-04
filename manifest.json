@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "createWindow.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo.png"
+   },
+   "description": "Udemy downloader extension. ",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFgGZLyfCfrFtwARHigrTo0W4W4ukvSjrerGdmmTj2mGUURQtkFzNJnqR9Gf4vioOSeQa20VWPZf0k1Dx32pYYVvLlx5xXDNhs4C3ONkQV5oswdAciAPb6eV5zvp3vi5AzdS4pBVR7nAyF+dFp1KiQZaQhxlJzmyTOtz35ezvnNndnzKHUtcjp6S2fx/eQ6YM0aXBGov97BLFfSLK9MZ6Bop8GaT1u+3XKE06ZzN/a7+3zWUZLsbW4QL1mY6GRq8efz6XmQ5Dq0aO1jHqhHnT2OzWGEIBhuE/+Xw3moehMNwk+VkBpFe1hsJwWOgELybs2GgIung1XHY5iYL5CmhYQIDAQAB",
+   "manifest_version": 2,
+   "name": "Udemy Downloader",
+   "permissions": [ "*://*.udemy.com/*", "downloads", "downloads.shelf", "cookies" ],
+   "short_name": "Udemy",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.0"
+}

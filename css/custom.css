@@ -1,0 +1,341 @@
+body {
+	background-color: #212529;
+	color: #cccccc;
+	min-width: 1067px;
+	font-family: sans-serif
+}
+
+.donate {
+	background-color: #A435F0
+}
+
+.donate:hover a {
+	background-color: #c59be0!important
+}
+
+.btn:hover {
+	background-color: #c59be0!important
+}
+
+span.icon:before {
+	font-family: 'Glyphicons Halflings';
+	content: "\f015"
+}
+
+tbody tr td{
+    font-size:14px;
+}
+
+.container {
+	min-width: 100vh;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+#left-side {
+	height: 100vh;
+	background-color: #29303b
+}
+
+#left-side #left-brand {
+	margin: 0;
+	width: 100%;
+	padding: 30px 10px 10px 10px;
+	text-align: center
+}
+
+#left-side #left-brand .brand-logo {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	left: 50%
+}
+
+#left-side #left-brand span {
+	font-size: 21px;
+	font-weight: 600
+}
+
+#left-side ul.left-side-menu {
+	display: block;
+	padding: 30px 0 10px 0
+}
+
+#left-side ul.left-side-menu li {
+	list-style-type: none
+}
+
+#left-side ul.left-side-menu li a {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+    padding: 15px 0 15px 25px;
+}
+
+#left-side ul.left-side-menu li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #A435F0
+}
+
+.td-1 {
+	width: 10%
+}
+
+.td-2 {
+	width: 20%
+}
+
+.td-3 {
+	width: 50%;
+	font-weight: 600!important
+}
+
+.td-4 {
+	width: 20%
+}
+
+.selected-td {
+	background-color: #A435F0
+}
+
+.dataTables_wrapper table thead {
+	display: none
+}
+
+.blink {
+	animation: colorchange 4s infinite;
+	-webkit-animation: colorchange 4s infinite
+}
+
+@keyframes colorchange {
+	0% {
+		background: #A435F0
+	}
+	25% {
+		background: #dcdada
+	}
+	50% {
+		background: #A435F0
+	}
+	75% {
+		background: #dcdada
+	}
+	100% {
+		background: #A435F0
+	}
+}
+
+@-webkit-keyframes colorchange {
+	0% {
+		background: #A435F0
+	}
+	25% {
+		background: #dcdada
+	}
+	50% {
+		background: #A435F0
+	}
+	75% {
+		background: #dcdada
+	}
+	100% {
+		background: #A435F0
+	}
+}
+
+.pagination {
+	text-align: center!important;
+	max-width: 100%
+}
+
+ul.pagination {
+	justify-content: center!important
+}
+
+.paginate_button {
+	border: 0
+}
+
+.dataTables_info {
+	text-align: center!important
+}
+
+.dataTables_wrapper table thead {
+	display: none
+}
+
+.dataTables_paginate a {
+	padding: 15px 25px!important;
+	color: #fff;
+	min-width: 50px;
+	background: #A435F0!important;
+	border-color: #A435F0!important;
+	border-radius: 0!important
+}
+
+.dataTables_paginate a:hover {
+	background: #A435F0!important;
+	border-color: #A435F0!important;
+	color: #fff
+}
+
+.page-item.disabled .page-link {
+	color: var(--dark)
+}
+
+.btn-sm {
+	border-radius: 0!important;
+	height: 45px
+}
+
+.btn-success {
+	background-color: #A435F0!important
+}
+
+.btn-danger {
+	background-color: #A435F0!important
+}
+
+.progress {
+	border-radius: 0!important
+}
+
+.btn-group {
+	width: 100%
+}
+
+.btn-width-5 {
+	width: 5%
+}
+
+.btn-width-25 {
+	width: 25%
+}
+
+.btn-width-30 {
+	width: 30%
+}
+
+.btn-width-35 {
+	width: 35%
+}
+
+.btn-width-100 {
+	width: 100%
+}
+
+.btn {
+	margin: 0!important;
+	border: 0
+}
+
+.btn-right {
+	border-right: 2px dotted var(--dark)
+}
+
+.brn-right:last-child {
+	border-right: 0
+}
+
+.btn-right:first-child {
+	font-size: 15px
+}
+
+div.dataTables_filter input {
+	width: 300px!important;
+	height: 40px;
+	margin-top: 5px
+}
+
+#counter {
+	overflow: Hidden;
+	text-align: center;
+	z-index: 0
+}
+
+#counter span {
+	display: inline-block;
+	color: #212529;
+	margin: 10px 10px 0 0;
+	padding: 5px 10px
+}
+
+.btn-container {
+	width: 100%;
+	margin: 0 auto;
+	height: 600px;
+	text-align: center;
+	color: #fff
+}
+
+.btn-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 20px
+}
+
+.btn-xl {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #A435F0!important;
+	border: 0;
+	font-size: 25px
+}
+
+.col-md-12 {
+	min-height: 0!important
+}
+
+.sonar-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	height: 600px;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	padding: 0 0
+}
+
+.sonar-emitter {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 9999px;
+	background-color: #A435F0;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.sonar-wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 9999px;
+	background-color: #A435F0;
+	opacity: 0;
+	z-index: -1;
+	pointer-events: none
+}
+
+.sonar-wave {
+	animation: sonarWave 2s linear infinite
+}
+
+@keyframes sonarWave {
+	from {
+		opacity: .4
+	}
+	to {
+		transform: scale(3);
+		opacity: 0
+	}
+}

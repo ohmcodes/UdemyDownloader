@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Udemy Downloader</title>
+      <meta charset="utf-8">
+      
+      <script type="text/javascript" src="Plugins/jquery-3.5.1.min.js"></script> 
+      <link rel="stylesheet" type="text/css" href="Plugins/datatables.min.css"/>
+      <script type="text/javascript" src="Plugins/datatables.min.js"></script>
+      <link rel="stylesheet" href="Plugins/Bootstrap-4-4.1.1/glyphicon.css">
+      <link rel="stylesheet" href="css/custom.css">
+      <script src="background.js"></script> 
+      
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 p-0 m-0 text-white">
+            <div id="left-side">
+              <div id="left-brand">
+                <img src="/logo.png" class="brand-logo" style="width:50%; margin-bottom:25px;">
+                <span>Udemy Downloader</span>
+              </div>
+              <ul class="nav left-side-menu">
+                <li class="active">
+                  <a data-toggle="pill" href="#home"> <span class="glyphicon glyphicon-home"></span>
+                    &nbsp;Home</a>
+                </li>
+
+                <li>
+                  <a data-toggle="pill" href="#down"><span class="glyphicon glyphicon-search"></span>
+                    &nbsp;F.A.Q.
+                  </a>
+                </li>
+                <li class="donate" style="margin-top:25px;">
+                  <a  href="https://www.patreon.com/ohmcodes" target="_blank"> <span class="glyphicon glyphicon-gift" style="font-size:16px;"></span>
+                    Give Thanks.</a>
+                </li>
+                
+                
+
+              </ul>
+			  <div class="fixed-bottom version text-left pl-4" style="font-size:12px"></div>
+            </div>
+            </div>
+        <div class="col-md-9 p-0 m-0">
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in show active">
+              <div class="col-md-12 p-0 m-0">
+                <div class="sonar-wrapper">
+                  <div class="sonar-emitter">
+                    <div class="sonar-wave">
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-container">
+                  <div class="btn-text">
+                    <button id="analyze" class="btn btn-info btn-xl">My Courses</button>
+                  </div>
+                </div>
+                <div class="text-center mt-3" id="counter">
+                  <i id="current-text"></i>
+                  <i id="total-text"></i>
+                </div>    
+              </div>
+              <div id="example" class="">
+              
+              </div>
+            </div>
+            <div id="social" class="tab-pane p-4">
+              <h1>Social Media</h1>
+              <p>
+                <b>Facebook : </b> facebook<br>
+                <b>Instagram : </b> instagram
+              </p>
+            </div>
+            <div id="down" class="tab-pane p-4">
+              <h1>F.A.Q.</h1>
+              <br>
+              <h4>• Download all</h4>
+              <p> Change settings </br>
+              <b>Chrome: </b> chrome://settings/downloads
+              </br>
+              <b>Brave browser :</b> Settings > Downloads > Turn off (Ask  where to save each file before downloading)
+              </p>
+              <h4>• Download Folder </h4>
+              <p style="font-size:14px;">
+                <b>"Downloads\Udemy Download\INSTRUCTORNAME\COUSENAME\VIDEONAME.mp4"</b></br>
+              </p>
+              <h4>• Bug and Error</h4>
+              <p>
+                you can report on github issues - <a href="https://github.com/ohmcodes/UdemyDownloader/issues" target="_blank"><b>visit</b></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+
+    </body>
+</html>
